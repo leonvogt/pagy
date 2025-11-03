@@ -87,7 +87,7 @@ The new version doesn't use the extras anymore. They got integrated in the core 
 | `size: ...`<br/>`Pagy.options[:size] = ...`    | `slots: ...`<br/>`Pagy.options[:slots] = ...`       |
 | `ends: false`<br/>`Pagy.options[:end] = false` | `compact: true`<br/>`Pagy.options[:compact] = true` |
 
-==- `boostrap`
+==- `bootstrap`
 
 - All the old helpers are now `@pagy` instance methods with more explicit names.
 
@@ -95,9 +95,9 @@ The new version doesn't use the extras anymore. They got integrated in the core 
 
 | Search (old)                                   | Replace with (new)                                  |
 |------------------------------------------------|-----------------------------------------------------|
-| `pagy_boostrap_nav(@pagy, ...)`                | `@pagy.series_nav(:boostrap, ...)`                  |
-| `pagy_boostrap_nav_js(@pagy, ...)`             | `@pagy.series_nav_js(:boostrap, ...)`               |
-| `pagy_boostrap_combo_nav_js(@pagy, ...)`       | `@pagy.input_nav_js(:boostrap, ...)`                |
+| `pagy_bootstrap_nav(@pagy, ...)`                | `@pagy.series_nav(:bootstrap, ...)`                  |
+| `pagy_bootstrap_nav_js(@pagy, ...)`             | `@pagy.series_nav_js(:bootstrap, ...)`               |
+| `pagy_bootstrap_combo_nav_js(@pagy, ...)`       | `@pagy.input_nav_js(:bootstrap, ...)`                |
 | `size: ...`<br/>`Pagy.options[:size] = ...`    | `slots: ...`<br/>`Pagy.options[:slots] = ...`       |
 | `ends: false`<br/>`Pagy.options[:end] = false` | `compact: true`<br/>`Pagy.options[:compact] = true` |
 
